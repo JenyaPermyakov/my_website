@@ -50,6 +50,7 @@ main {
     background: white;
     padding: 20px;
     border: 1px solid #ccc;
+    text-align: justify;
 
     align-items: flex-start;
 }
@@ -85,6 +86,7 @@ aside {
     padding: 20px;
     border: 1px solid #ccc;
     margin-top: 20px;
+    list-style-position: inside;
 }
 
 /* Проекты */
