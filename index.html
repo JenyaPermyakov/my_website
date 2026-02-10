@@ -2,23 +2,83 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Мой первый сайт</title>
+    <title>Евгений Пермяков — Junior Python Developer</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header>
-    <h1>Мой первый сайт</h1>
+    <h1>Евгений Пермяков — Junior Python Developer</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
 </header>
 
 <main>
-    <section>
-        <h2>Обо мне</h2>
-        <p>Здесь будет информация обо мне.</p>
+
+<section id="facts">
+    <div class="facts-photo">
+        <img src="images/3F9FECC3-9364-4F8D-A24A-9D423599BB02.jpeg" alt="Фото">
+    </div>
+
+    <div class="facts-text">
+        <h2>Интересный факт</h2>
+        <p>Дополнительный текст</p>
+    </div>
+</section>
+
+
+    <section id="skills">
+        <h2>Навыки</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+        </ul>
+
+        <ol>
+            <li>Изучить основы</li>
+            <li>Сделать проекты</li>
+            <li>Найти работу</li>
+        </ol>
     </section>
+
+    <section id="projects">
+        <h2>Мои проекты</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Статус</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Первый сайт</td>
+                    <td>Учебный проект</td>
+                    <td>Готов</td>
+                </tr>
+                <tr>
+                    <td>Скоро здесь будет проект</td>
+                    <td>В разработке</td>
+                    <td>В процессе</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 </main>
 
-<footer>
+<footer id="contacts">
+    <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
     <p>© 2026</p>
 </footer>
 
