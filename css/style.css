@@ -10,29 +10,36 @@ h1, h2, h3 {
 }
 
 /* Шапка */
-header {
-    background: white;
-    padding: 20px;
-    border-bottom: 2px solid #ddd;
+.site-header {
+    display: flex;                 /* ставим элементы в одну линию */
+    justify-content: space-between;/* заголовок слева, меню справа */
+    align-items: center;           /* ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ */
 
-    display: flex;
-    justify-content: space-between; /* Раздвигает элементы по краям */
-    align-items: center; 
+    padding: 20px;
+    background: white;
+    border-bottom: 2px solid #ddd;
 }
 
-nav ul {
+.site-header h1 {
+    margin: 0;                     /* убираем отступы, чтобы не съезжало */
+    font-size: 28px;
+}
+
+/* Меню */
+.nav-menu {
     list-style: none;
-    padding: 0;
     display: flex;
     gap: 15px;
+    padding: 0;
+    margin: 0;
 }
 
-nav a {
+.nav-menu a {
     text-decoration: none;
     color: black;
     border: 1px solid #aaa;
-    padding: 5px 10px;
-    border-radius: 4px;
+    padding: 6px 12px;
+    border-radius: 5px;
 }
 
 /* Основная область */
