@@ -99,10 +99,16 @@ section {
 }
 
 /* Образование */
+#educations { 
+    background: white; 
+    text-align: justify; 
+}
+
 #educations ul {
     list-style-position: inside;
     padding-left: 0;
     margin-left: 0;
+    text-align: justify;
 }
 
 /* Таблицы проектов */
