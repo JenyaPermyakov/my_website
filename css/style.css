@@ -11,9 +11,9 @@ h1, h2, h3 {
 
 /* Шапка */
 .site-header {
-    display: flex;                 /* ставим элементы в одну линию */
-    justify-content: space-between;/* заголовок слева, меню справа */
-    align-items: center;           /* ВЫРАВНИВАНИЕ ПО ВЕРТИКАЛИ */
+    display: flex;                 
+    justify-content: space-between;
+    align-items: center;           
 
     padding: 20px;
     background: white;
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 .site-header h1 {
-    margin: 0;                     /* убираем отступы, чтобы не съезжало */
+    margin: 0;                     /
     font-size: 28px;
 }
 
@@ -51,19 +51,17 @@ main {
 
 /* Блок "Обо мне" с боковой колонкой */
 #facts {
-    display: flex;              /* Меняем GRID на FLEX */
+    display: flex;             
     gap: 20px;
-
     background: white;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: justify;
-
     align-items: flex-start;
 }
 
 .facts-photo {
-    flex: 0 0 200px;            /* фиксированная ширина фото */
+    flex: 0 0 200px;            
 }
 
 .facts-photo img {
@@ -73,8 +71,8 @@ main {
 }
 
 .facts-text {
-    flex: 1;                    /* текст занимает ВСЁ остальное место */
-    border: 1px dashed #bbb;
+    flex: 1;                    
+    border: nonw;
     padding: 15px;
 }
 
@@ -84,17 +82,38 @@ aside {
     background: #fafafa;
     padding: 10px;
     border: 1px dashed #bbb;
-    grid-row: 1 / span 1; /* ВОТ ЭТО ГЛАВНОЕ */
+    grid-row: 1 / span 1; 
 }
 
 /* Навыки */
 #skills {
-    background: white;
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    list-style-position: inside;
+    background: white;        
+    padding: 20px;            
+    border: 1px solid #ccc;   
+    margin-top: 20px;         
 }
+
+#skills ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Образование */
+#educations {
+    background: white;       
+    padding: 20px;            
+    border: 1px solid #ccc;   
+    margin-top: 20px;   
+    text-align: justify;      
+}
+
+#educations ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
 
 /* Проекты */
 #projects {
