@@ -1,4 +1,4 @@
-/* Общие стили */
+/* Общие стайлишь  */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ h1, h2, h3 {
     color: #1e293b;
 }
 
-/* Шапка */
+/* верхний блок */
 .site-header {
     display: flex;                 
     justify-content: space-between;
@@ -58,7 +58,7 @@ main {
     padding: 0 15px;
 }
 
-/* Карточки секций */
+/* задние блоки для текста  */
 section {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -67,8 +67,8 @@ section {
     margin-bottom: 25px;
 }
 
-/* Блок "Интересный факт" */
-#facts {
+/* Интересный факт */
+.facts {
     display: flex;
     gap: 20px;
     align-items: flex-start;
@@ -92,19 +92,19 @@ section {
 }
 
 /* Навыки */
-#skills ul {
+.facts-photo ul {
     list-style-position: inside;
     padding-left: 0;
     margin-left: 0;
 }
 
 /* Образование */
-#educations { 
+.educations { 
     background: white; 
     text-align: justify; 
 }
 
-#educations ul {
+.educations ul {
     list-style-position: inside;
     padding-left: 0;
     margin-left: 0;
