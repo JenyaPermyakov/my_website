@@ -7,6 +7,7 @@ const name = document.querySelector('#name').value.trim();
 const email = document.querySelector('#email').value.trim();
 const message = document.querySelector('#message').value.trim();
 
+//создаем условия проверки для полей
 if (name === "") {
         alert("Введите имя");
         return;
@@ -22,13 +23,13 @@ if (name === "") {
         return;
     }
 
-    // Создаем объект
+    // Создаем переменную с данными для отправки в консоль 
     const data = {
         name: name,
         email: email,
         message: message
     };
-
+    // отправляем в консоль 
     console.log(data);
 
     alert("Форма отправлена!");
