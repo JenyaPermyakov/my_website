@@ -128,6 +128,146 @@ th {
     color: #1e293b;
 }
 
+/* блок оффера */
+/* Блок формы */
+.registration {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+/* Центрируем форму */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Группы полей */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Подписи */
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #1e293b;
+}
+
+/* Поля ввода */
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+/* Фокус (когда кликаешь) */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Текстовое поле */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Кнопка */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-submit:hover {
+    background: #1d4ed8;
+}
+
+.registration {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+/* Центрируем форму */
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Группы полей */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Подписи */
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #1e293b;
+}
+
+/* Поля ввода */
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+/* Фокус (когда кликаешь) */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Текстовое поле */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Кнопка */
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-submit:hover {
+    background: #1d4ed8;
+}
+
+
+
 /* Подвал */
 footer {
     display: flex;
